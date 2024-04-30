@@ -22,11 +22,13 @@ for (let i=0; i<alumnos.length;i++){
 
 
 // vamos a recorrer los alumjos mediante el metodo foreach 
-/* alumnos.forEach((valor,indice)=>{
+alumnos.forEach((valor,indice)=>{
     console.log(`alumno indice = ${indice} valor.Nombre ${valor.Nombre}`);
     console.log(valor);
     console.log('---------------');
-}) */
+})
+
+
 
 
 

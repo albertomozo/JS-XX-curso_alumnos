@@ -9,7 +9,7 @@ console.log('for in')
 
 // cursos es un objeto
 for (let propiedad in curso){
-    console.log(curso[propiedad]);
+    console.log(propiedad , curso[propiedad]);
 }
 
 

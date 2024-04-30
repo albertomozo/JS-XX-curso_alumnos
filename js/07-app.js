@@ -14,8 +14,8 @@ for (let propiedad in curso){
 
 console.log('------------------');
 
-for (let propiedad in alumnos[0]){
-    console.log(alumnos[0][propiedad]);
+for (let propiedad in alumnos[1]){
+    console.log(propiedad , alumnos[0][propiedad]);
 
 }
 

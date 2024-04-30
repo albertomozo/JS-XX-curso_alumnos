@@ -1,6 +1,7 @@
 const curso = 
 {"curso":"FRONTEND",
 "fecha_inicio" : "2022-01-24",
+"Localidad" : 'Donosti',
 "tutor" : 
     {"Nombre":"Alberto Mozo",
         "email" : "albertomozodocente@gmail.com",
