@@ -2,8 +2,10 @@ titulo.innerHTML = '99 - 01 - Media de materia';
 let info = document.getElementById('info');
 document.getElementById('campo1').placeholder = 'Introduce la materia';
 document.getElementById('campo2').placeholder = 'campo2';
-
-info.innerHTML =  '<P>Introduce la materia</p>';
+var textoMaterias = '( ';
+materias.forEach(materia =>{textoMaterias += materia + ' ' ;});
+textoMaterias += ' )';
+info.innerHTML = `<P>Introduce la materia ${textoMaterias}</p>`;
 
 
 
@@ -21,7 +23,7 @@ btn.addEventListener('click',()=>{
             console.log(alumno.inicio);
             total += alumno.inicio[campo1];
     })
-    textoinfo = `<p id="titulo">resultados materia ${campo1}</p>`;
+    textoinfo = `<p id="titulo">resultados materia ${campo1} Inicio</p>`;
     textoinfo += `<p>Total = ${total}`;
     textoinfo += `<p>Media = ${total/totalAlumnos}`;
 

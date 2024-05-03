@@ -21,14 +21,15 @@ btn.addEventListener('click',()=>{
     let textoinfo = '';
     if (indice>=0){
          textoinfo += `<p id="titulo">resultados Alumno  ${campo1}</p>`;
-         textoinfo += '<table><th>Inicio</th><th>Fin</th><th>Diferencia</th>';  
+         textoinfo += '<table><th>Materia</th><th>Inicio</th><th>Fin</th><th>Diferencia</th>';  
          const alumno = alumnos[indice];  
          console.log(alumno.inicio)  ;  
          for (const materia in alumno.inicio){
                 console.log(materia);
                 const  valorI=  alumno.inicio[materia];
                 const  valorF=  alumno.fin[materia];
-                textoinfo += `<tr><td>${valorI} </td><td>${valorF} </td><td>${valorF - valorI} </td></tr>`;
+                textoinfo += `<tr><td>${materia}</td>
+                    <td>${valorI} </td><td>${valorF} </td><td>${valorF - valorI} </td></tr>`;
            }
         
     } else{

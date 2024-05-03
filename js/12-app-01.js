@@ -17,14 +17,16 @@ btn.addEventListener('click',()=>{
     alumnoValor = document.getElementById('campo1').value;
     // Saber si existe el alumno introducido en campo1
     console.log(`🔎 Alumno ${alumnoValor}`);
-    let existeAlumno = 'NO';
-    alumnos.forEach((alumno) => {
-        if(alumno.Nombre === alumnoValor) {
-            existeAlumno = 'SI';
+    let existeAlumno = false;
+    for (let i=0; i<alumnos.length; i++) {
+           if(alumnos[i].Nombre === alumnoValor) {
+            existeAlumno = true;
             console.log(`existe ${alumnoValor}`);
         }
-    })
+    }
     console.log(existeAlumno);
+
+    // el for se puede implementar con alumnos.forEch,  for of  .. 
     
     // En el caso de un array  de objetos usar el metodo include no es la mejor opción, podrías utilizar uno llamado .some 
    /*  const existe = alumnos.some( function (alumno) { 

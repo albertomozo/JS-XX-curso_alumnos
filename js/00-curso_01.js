@@ -17,16 +17,16 @@ const curso =
             "linked" : "https://www.linkedin.com/",
             "github" : "https://github.com",
             "inicio" : {    
-                "php" : 1,
-                "mysql" : 1,
-                "API" : 1,
-                "Laravel" : 3
+                "html" : 1,
+                "css" : 1,
+                "JS" : 1,
+                "Vue" : 3
             },
             "fin" : {     
-                "php" : 4,
-                "mysql" : 4,
-                "API" : 4,
-                "Laravel" : 4 
+                "html" : 4,
+                "css" : 4,
+                "JS" : 4,
+                "Vue" : 4 
             }
         
         },
@@ -36,16 +36,16 @@ const curso =
             "linked" : "https://www.linkedin.com/",
             "github" : "https://github.com",
             "inicio" : {     
-                "php":2,
-                "mysql" :3,
-                "API" : 1,
-                "Laravel" : 3
+                "html":2,
+                "css" :3,
+                "JS" : 1,
+                "Vue" : 3
             },
             "fin" :{     
-                "php" : 4,
-                "mysql" : 4,
-                "API" : 4,
-                "Laravel" : 4 
+                "html" : 4,
+                "css" : 4,
+                "JS" : 4,
+                "Vue" : 4 
             } 
         
         },
@@ -55,16 +55,16 @@ const curso =
            "linked" : "https://www.linkedin.com/",
            "github" : "https://github.com",
            "inicio" : {     
-               "php":2,
-               "mysql" :3,
-               "API" : 1,
-               "Laravel" : 3
+               "html":2,
+               "css" :3,
+               "JS" : 1,
+               "Vue" : 3
            },
            "fin" :{     
-               "php" : 4,
-               "mysql" : 4,
-               "API" : 4,
-               "Laravel" : 4 
+               "html" : 4,
+               "css" : 4,
+               "JS" : 4,
+               "Vue" : 4 
            } 
        
        },
@@ -74,16 +74,16 @@ const curso =
         "linked" : "https://www.linkedin.com/",
         "github" : "https://github.com",
         "inicio" : {     
-            "php":2,
-            "mysql" :3,
-            "API" : 1,
-            "Laravel" : 3
+            "html":2,
+            "css" :3,
+            "JS" : 1,
+            "Vue" : 3
         },
         "fin" :{     
-            "php" : 4,
-            "mysql" : 4,
-            "API" : 4,
-            "Laravel" : 5 
+            "html" : 4,
+            "css" : 4,
+            "JS" : 4,
+            "Vue" : 5 
         } 
         
    
@@ -94,16 +94,16 @@ const curso =
            "linked" : "https://www.linkedin.com/",
            "github" : "https://github.com",
            "inicio" : {     
-               "php":0,
-               "mysql" :3,
-               "API" : 1,
-               "Laravel" : 3 
+               "html":0,
+               "css" :3,
+               "JS" : 1,
+               "Vue" : 3 
            },
            "fin" :{     
-               "php" : 4,
-               "mysql" : 4,
-               "API" : 4,
-               "Laravel" : 3
+               "html" : 4,
+               "css" : 4,
+               "JS" : 4,
+               "Vue" : 3
            }  
         } ,
         {
@@ -112,16 +112,16 @@ const curso =
            "linked" : "https://www.linkedin.com/",
            "github" : "https://github.com",
            "inicio" : {     
-               "php":5,
-               "mysql" :3,
-               "API" : 1,
-               "Laravel" : 3 
+               "html":5,
+               "css" :3,
+               "JS" : 1,
+               "Vue" : 3 
            },
            "fin" :{     
-               "php" : 4,
-               "mysql" : 2,
-               "API" : 4,
-               "Laravel" : 3
+               "html" : 4,
+               "css" : 2,
+               "JS" : 4,
+               "Vue" : 3
            }  
         } 
 ]

@@ -21,7 +21,7 @@ btn.addEventListener('click',()=>{
         // hay que enviar el objeto de la persona encontrada
         // para ello debemos buscar el indice en el que esta el elemento buscado
         // FindIndex te dirá el indice es decir la ubicación del elemento en el arreglo...
-        const indice = alumnos.findIndex( alumno => alumno.Nombre === alumnoValor ); 
+        const indice = alumnos.findIndex( alumno => alumno.Nombre === alumnoValor  ); 
         const fichaAlumno= ficha_persona( alumnos[indice]);
         console.log(fichaAlumno);
         document.getElementById('info').innerHTML = fichaAlumno;
