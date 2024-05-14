@@ -41,10 +41,11 @@ btn.addEventListener('click',()=>{
             document.getElementById('info').innerHTML = fichaAlumno;
         } else {
              // recorro todos los alumnos encontrados para pode seleccionar el adecuado
-             let alumnosTexto;
+             let alumnosTexto = '';
              alumnosConjunto.forEach(alumno=>{
-                alumnosTexto += `<p>Alumno : ${alumno.Nombre} ${alumno.linked} email : ${alumno.email}</p>` ;
-             })
+                //alumnosTexto += `<p>Alumno : ${alumno.Nombre} ${alumno.linked} email : ${alumno.email} </p>` ;
+                alumnosTexto += ficha_persona(alumno);
+            })
              // añadir enlace para ver cada ficha de alumno 
              document.getElementById('info').innerHTML = alumnosTexto;
         }

@@ -92,5 +92,9 @@ p {
 
 }
 
+li a {
+    text-align: left;
+    color : blue;
+}
 
 

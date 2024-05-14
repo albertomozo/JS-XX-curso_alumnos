@@ -90,7 +90,7 @@ const curso =
         },
         {
             "Nombre":"Alumno4",
-           "email" : "Alumno4@gmail.com",
+           "email" : "Alumno5@gmail.com",
            "linked" : "https://www.linkedin.com/",
            "github" : "https://github.com",
            "inicio" : {     
